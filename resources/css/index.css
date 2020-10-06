@@ -1,0 +1,90 @@
+/* begin header CSS */
+
+.headerBar {
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.headerLogoText {
+    font-size: 40px;
+    color: green;
+    font-weight: bolder;
+}
+
+.subHeaderLogo {
+    font-size: 20px;
+    color: green;
+}
+
+.headerLink {
+    border: 2px solid green;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+    outline: green;
+    padding: 10px;
+}
+
+.headerLinks {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+/* begin body CSS */
+
+body {
+    background-color: rgb(51, 51, 51);
+}
+
+
+/* begin post CSS */
+
+.post {
+    font-family: serif;
+    padding: 5px;
+}
+
+.post .dateBox {
+    color: gray;
+    border: 2px solid gray;
+}
+
+.postTime {
+    text-align: right;
+    font-size: 14px;
+    /* padding-right: 20px; */
+    padding: 5px;
+}
+
+.postinfo {
+    border: 2px solid gray;
+}
+
+.postinfo h1 {
+    text-align: right;
+    font-size: 14px;
+}
+
+.postinfo .name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.postinfo .avatar {
+    display: block;
+    margin-right: 15px;
+    margin-left: auto;
+    height: 100px;
+    width: 100px;
+}
+
+.postText {
+    border: 2px solid gray;
+}
