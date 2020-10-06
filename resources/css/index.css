@@ -54,18 +54,22 @@ body {
   color: red;
   padding: 7px;
   font-weight: 600;
+  margin-bottom: 0px;
 }
 
 /* begin post CSS */
 
 .post {
   font-family: serif;
-  padding: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 28px;
+  padding-right: 28px;
+  background-color: whitesmoke;
 }
 
 .post .dateBox {
-  color: gray;
-  border: 2px solid gray;
+  border: 2px solid;
 }
 
 .postTime {
@@ -73,10 +77,12 @@ body {
   font-size: 14px;
   /* padding-right: 20px; */
   padding: 5px;
+  margin-bottom: 0px;
+  color: gray;
 }
 
 .postinfo {
-  border: 2px solid gray;
+  border: 2px solid;
 }
 
 .postinfo h1 {
@@ -98,5 +104,10 @@ body {
 }
 
 .postText {
-  border: 2px solid gray;
+  border: 2px solid;
+  padding-top: 5px;
+}
+
+.postText p {
+  color: black;
 }
