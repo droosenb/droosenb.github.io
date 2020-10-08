@@ -15,8 +15,9 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="resources/css/index.css" type="text/css" />
-    <link rel="stylesheet" href="resources/css/users.css" type="text/css" />
+    <link rel="stylesheet" href="../resources/css/index.css" type="text/css" />
+    <link rel="stylesheet" href="../resources/css/users.css" type="text/css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <title>Part One (Early Alpha)</title>
   </head>
@@ -25,7 +26,7 @@
   <div class="headerBar containter">
     <div class="row">
       <div class="col-lg-12">
-        <a class="headerLogoText" href="index.html" target="_blank"
+        <a class="headerLogoText" href="../index.html" target="_blank"
           >Noise Bits</a
         >
       </div>
@@ -60,18 +61,7 @@
           <div class="container commentBox">
             <div class="row">
               <div class="col-lg-2"></div>
-              <div class="col-lg-9 comment">
-                <p>
-                  Recently, I came across the physical archives of the Soft
-                  Noises forum, a long story which I may get into later. I had
-                  never heard of it before, but inside the archives I found a
-                  small forum which operated from around 2005 - 2012. By my best
-                  estimation only a few hundred people ever posted, but a
-                  surprising amount was created, based on the amount of archival
-                  data. I've selected a thread here which I found to be mostly
-                  complete.
-                </p>
-              </div>
+              <div class="col-lg-9"></div>
               <div class="col-lg-1"></div>
             </div>
           </div>
@@ -89,7 +79,7 @@
               <div class="col-lg-3 postinfo blacksocks333">
                 <img
                   class="avatar"
-                  src="assets/avatars/default-avatar.png"
+                  src="../assets/avatars/default-avatar.png"
                   alt="default avatar"
                 />
 
@@ -125,7 +115,23 @@
           <div class="container commentBox">
             <div class="row">
               <div class="col-lg-1"></div>
-              <div class="col-lg-9"></div>
+              <div
+                class="col-lg-9 comment"
+                data-aos="fade-up"
+                data-aos-delay="500"
+                data-aos-duration="3000"
+              >
+                <p>
+                  So begins blacksocks333's oddessy to figure out the problem
+                  with their radio. <br />
+                  <br />
+                  For the first thread, I just tried to pick a complete thread.
+                  The archival system is kind of a pain, grouping posts by
+                  timestamp before thread, so I have to manually collect
+                  responses. This is from the middle years of the forum, as far
+                  as I can tell.
+                </p>
+              </div>
               <div class="col-lg-2"></div>
             </div>
           </div>
@@ -161,7 +167,7 @@
                 <!-- add user info -->
                 <img
                   class="avatar"
-                  src="assets/avatars/default-avatar.png"
+                  src="../assets/avatars/default-avatar.png"
                   alt="default avatar"
                 />
                 <h1 class="name">noise_god_9001</h1>
@@ -220,7 +226,7 @@
                 <!-- add user info -->
                 <img
                   class="avatar"
-                  src="assets/avatars/default-avatar.png"
+                  src="../assets/avatars/default-avatar.png"
                   alt="default avatar"
                 />
                 <h1 class="name">joshd65</h1>
@@ -244,15 +250,21 @@
         </div>
         <!-- right comment area -->
         <div class="col-lg-3">
-          <div class="container commentBox">
+          <div
+            class="container commentBox"
+            data-aos="fade-up"
+            data-aos-delay="2000"
+            data-aos-duration="3000"
+          >
             <div class="row">
               <div class="col-lg-1"></div>
               <div class="col-lg-9 comment">
                 <p>
                   I'm still not sure what the original forum looked like, I
-                  haven't found it in the archives yet and my memory is very
-                  hazy. This is just a mockup similar to forum of the time. I
-                  thought that giving users colors might make the thread a bit
+                  haven't found layout controls in the archives yet and my
+                  memory is very hazy. This is just a mockup similar to forum of
+                  the time. <br />
+                  I thought that giving users colors might make the thread a bit
                   more readable.
                 </p>
               </div>
@@ -289,7 +301,7 @@
               <div class="col-lg-3 postinfo blacksocks333">
                 <img
                   class="avatar"
-                  src="assets/avatars/default-avatar.png"
+                  src="../assets/avatars/default-avatar.png"
                   alt="default avatar"
                 />
 
@@ -349,7 +361,7 @@
               <div class="col-lg-3 postinfo blacksocks333">
                 <img
                   class="avatar"
-                  src="assets/avatars/default-avatar.png"
+                  src="../assets/avatars/default-avatar.png"
                   alt="default avatar"
                 />
 
@@ -373,7 +385,12 @@
         </div>
         <!-- right comment area -->
         <div class="col-lg-3">
-          <div class="container commentBox">
+          <div
+            class="container commentBox"
+            data-aos="fade-up"
+            data-aos-delay="2000"
+            data-aos-duration="3000"
+          >
             <div class="row">
               <div class="col-lg-1"></div>
               <div class="col-lg-9 comment">
@@ -384,7 +401,7 @@
                 </p>
                 <audio controls>
                   <source
-                    src="assets/audio/weird_noise.mp3"
+                    src="../assets/audio/weird_noise.mp3"
                     type="audio/mpeg"
                   />
                 </audio>
@@ -414,5 +431,9 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

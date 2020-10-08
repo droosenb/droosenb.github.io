@@ -44,6 +44,11 @@ body {
 
 /* begin comment formatting */
 
+.commentBox {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
 .comment {
   border: 2px solid red;
   border-radius: 10px;
